@@ -1,5 +1,5 @@
-                                                                                Tugas Laravel
-                                                             Mapel KK4-A (Pemrograman WEB dan Perangkat Bergerak)
+Tugas Laravel
+Mapel KK4-A (Pemrograman WEB dan Perangkat Bergerak)
 
 🔥 Task
     Modul 1 - Done
