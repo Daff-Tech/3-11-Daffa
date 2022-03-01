@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -35,9 +34,13 @@ Route::get('/gallery', function () {
     ]);
 });
 
+use App\Http\Controllers\ContactController;
 Route::resource('/contacts', ContactController::class);
+
 Auth::routes();
 
 Route::group(['middleware' => ['auth']], function() {
     Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 });
+
+Auth::routes();
